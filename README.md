@@ -16,7 +16,7 @@ Next, add this buildpack to your app:
 
 ```
 $ heroku buildpacks:clear
-$ heroku buildpacks:set https://github.com/jkutner/heroku-buildpack-ssh.git
+$ heroku buildpacks:set https://github.com/anaxareian/heroku-buildpack-ssh.git
 ```
 
 Then add your primary buildpack. For example, if you are using Ruby:
