@@ -22,7 +22,7 @@ $ heroku buildpacks:set https://github.com/anaxareian/heroku-buildpack-ssh.git
 Then add your primary buildpack. For example, if you are using Ruby:
 
 ```
-$ heroku buildpacks:add heroku/ruby
+$ heroku buildpacks:add heroku/python
 ```
 
 To enable SSH run this command:
